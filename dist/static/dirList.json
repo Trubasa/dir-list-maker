@@ -29,7 +29,7 @@
       {
         "name": "tabBar",
         "isDir": true,
-        "remark": "",
+        "remark": "小程序下方的按钮图片",
         "children": [
           {
             "name": "home.png",
@@ -128,22 +128,22 @@
       {
         "name": "common.js",
         "isDir": false,
-        "remark": ""
+        "remark": "通用方法集"
       },
       {
         "name": "config.js",
         "isDir": false,
-        "remark": "配置项，"
+        "remark": "配置项，存放接口地址等参数"
       },
       {
         "name": "dataTransform.js",
         "isDir": false,
-        "remark": ""
+        "remark": "在数据提交、或者调用接口后，用于数据的转化"
       },
       {
         "name": "netWork.js",
         "isDir": false,
-        "remark": ""
+        "remark": "网络请求的方法，接口的全局处理等"
       },
       {
         "name": "util.js",
@@ -165,12 +165,12 @@
   {
     "name": "templates",
     "isDir": true,
-    "remark": "",
+    "remark": "模板,功能与组件类似，但偏重于显示，不包含太多处理逻辑",
     "children": [
       {
         "name": "col-item",
         "isDir": true,
-        "remark": "",
+        "remark": "（无用）",
         "children": [
           {
             "name": "col-item.js",
@@ -197,7 +197,7 @@
       {
         "name": "listItem",
         "isDir": true,
-        "remark": "",
+        "remark": "点餐页面商品列表里的商品展示",
         "children": [
           {
             "name": "listItem.js",
@@ -224,7 +224,7 @@
       {
         "name": "order-item-tpl",
         "isDir": true,
-        "remark": "",
+        "remark": "订单详情",
         "children": [
           {
             "name": "order-item-tpl.js",
@@ -247,23 +247,18 @@
             "remark": ""
           }
         ]
-      },
-      {
-        "name": "templates.wxss",
-        "isDir": false,
-        "remark": ""
       }
     ]
   },
   {
     "name": "components",
     "isDir": true,
-    "remark": "",
+    "remark": "组件",
     "children": [
       {
         "name": "myDialog",
         "isDir": true,
-        "remark": "",
+        "remark": "弹出框，2种样式 有黑色遮罩/没有黑色遮罩",
         "children": [
           {
             "name": "myDialog.js",
@@ -290,7 +285,7 @@
       {
         "name": "appointmentItem",
         "isDir": true,
-        "remark": "",
+        "remark": "预约单列表的每一个单独的预约单对象（废弃）",
         "children": [
           {
             "name": "appointmentItem.js",
@@ -317,7 +312,7 @@
       {
         "name": "comboList",
         "isDir": true,
-        "remark": "",
+        "remark": "点餐页面里，套餐的列表",
         "children": [
           {
             "name": "comboList.js",
@@ -344,7 +339,7 @@
       {
         "name": "comboListItem",
         "isDir": true,
-        "remark": "",
+        "remark": "点餐页面里，套餐的列表每一项套餐",
         "children": [
           {
             "name": "comboListItem.js",
@@ -371,7 +366,7 @@
       {
         "name": "comboPanel",
         "isDir": true,
-        "remark": "",
+        "remark": "点餐页面里，点击套餐后弹出的框",
         "children": [
           {
             "name": "comboPanel.js",
@@ -398,7 +393,7 @@
       {
         "name": "comboPanelItem",
         "isDir": true,
-        "remark": "",
+        "remark": "点餐页面里，点击套餐后弹出的框的每一个分项",
         "children": [
           {
             "name": "comboPanelItem.js",
@@ -425,7 +420,7 @@
       {
         "name": "foodCart",
         "isDir": true,
-        "remark": "",
+        "remark": "购物车组件，包括那个下单/预约的按钮也在这个组件里，点击按钮后提交时间到menu页面进行数据处理",
         "children": [
           {
             "name": "foodCart.js",
@@ -452,7 +447,7 @@
       {
         "name": "foodCartComboItem",
         "isDir": true,
-        "remark": "",
+        "remark": "购物车里显示所选套餐",
         "children": [
           {
             "name": "foodCartComboItem.js",
@@ -479,7 +474,7 @@
       {
         "name": "foodCartItem",
         "isDir": true,
-        "remark": "",
+        "remark": "购物车里显示所选单品",
         "children": [
           {
             "name": "foodCartItem.js",
@@ -506,7 +501,7 @@
       {
         "name": "foodMenu",
         "isDir": true,
-        "remark": "",
+        "remark": "菜牌组件，左侧为商品分类，右侧为商品列表",
         "children": [
           {
             "name": "foodMenu.js",
@@ -533,7 +528,7 @@
       {
         "name": "goodDetail",
         "isDir": true,
-        "remark": "",
+        "remark": "商品详情弹框",
         "children": [
           {
             "name": "goodDetail.js",
@@ -560,7 +555,7 @@
       {
         "name": "goodItem",
         "isDir": true,
-        "remark": "",
+        "remark": "点餐页面里，商品列表里每个商品的对象",
         "children": [
           {
             "name": "goodItem.js",
@@ -587,7 +582,7 @@
       {
         "name": "goodOrderShow",
         "isDir": true,
-        "remark": "",
+        "remark": "订单确认和预约界面用户显示订单内容的组件",
         "children": [
           {
             "name": "goodOrderShow.js",
@@ -614,7 +609,7 @@
       {
         "name": "iconButton",
         "isDir": true,
-        "remark": "",
+        "remark": "首页的图标按钮",
         "children": [
           {
             "name": "iconButton.js",
@@ -641,7 +636,7 @@
       {
         "name": "listButton",
         "isDir": true,
-        "remark": "",
+        "remark": "个人页的每项功能",
         "children": [
           {
             "name": "desktop.ini",
@@ -673,7 +668,7 @@
       {
         "name": "moreTypeSelector",
         "isDir": true,
-        "remark": "",
+        "remark": "选规格组件",
         "children": [
           {
             "name": "moreTypeSelector.js",
@@ -700,7 +695,7 @@
       {
         "name": "myButton",
         "isDir": true,
-        "remark": "",
+        "remark": "自定义按钮组件（基本没怎么用到）",
         "children": [
           {
             "name": "myButton.js",
@@ -727,7 +722,7 @@
       {
         "name": "classifyTop",
         "isDir": true,
-        "remark": "",
+        "remark": "在swiperView里面，顶部的分类组件",
         "children": [
           {
             "name": "classifyTop.js",
@@ -754,7 +749,7 @@
       {
         "name": "myNumberSelector",
         "isDir": true,
-        "remark": "",
+        "remark": "数量加减选择器",
         "children": [
           {
             "name": "desktop.ini",
@@ -786,7 +781,7 @@
       {
         "name": "myPopupBottom",
         "isDir": true,
-        "remark": "",
+        "remark": "弹出框，从下方弹出（没用到）",
         "children": [
           {
             "name": "myPopupBottom.js",
@@ -813,7 +808,7 @@
       {
         "name": "myPopupRight",
         "isDir": true,
-        "remark": "",
+        "remark": "弹出框，从右方弹出，选择套菜内容的时候就有使用这个右侧弹出",
         "children": [
           {
             "name": "myPopupRight.js",
@@ -840,7 +835,7 @@
       {
         "name": "myTitle",
         "isDir": true,
-        "remark": "",
+        "remark": "标题组件，首页的'今日推荐'，菜单页面商品列表每项头的标题使用的组件",
         "children": [
           {
             "name": "myTitle.js",
@@ -867,7 +862,7 @@
       {
         "name": "orderItem",
         "isDir": true,
-        "remark": "",
+        "remark": "订单列表，每个订单项",
         "children": [
           {
             "name": "orderItem.js",
@@ -894,7 +889,7 @@
       {
         "name": "personalProfile",
         "isDir": true,
-        "remark": "",
+        "remark": "个人中心，个人信息的组件",
         "children": [
           {
             "name": "desktop.ini",
@@ -926,7 +921,7 @@
       {
         "name": "recommendGoodItem",
         "isDir": true,
-        "remark": "",
+        "remark": "首页推荐商品组件",
         "children": [
           {
             "name": "recommendGoodItem.js",
@@ -953,7 +948,7 @@
       {
         "name": "rowView",
         "isDir": true,
-        "remark": "",
+        "remark": "行组件，下单页面和预约页面有用来，用来规定一行的显示",
         "children": [
           {
             "name": "desktop.ini",
@@ -985,7 +980,7 @@
       {
         "name": "scrollLoader",
         "isDir": true,
-        "remark": "",
+        "remark": "滚动到底部加载更多数据",
         "children": [
           {
             "name": "scrollLoader.js",
@@ -1012,7 +1007,7 @@
       {
         "name": "shoppingCart",
         "isDir": true,
-        "remark": "",
+        "remark": "（废除）",
         "children": [
           {
             "name": "shoppingCart.js",
@@ -1039,7 +1034,7 @@
       {
         "name": "shopProfile",
         "isDir": true,
-        "remark": "",
+        "remark": "首页店铺信息组件",
         "children": [
           {
             "name": "desktop.ini",
@@ -1071,7 +1066,7 @@
       {
         "name": "swiperView",
         "isDir": true,
-        "remark": "",
+        "remark": "左右滑动切换组件",
         "children": [
           {
             "name": "swiperView.js",
@@ -1098,7 +1093,7 @@
       {
         "name": "tabView",
         "isDir": true,
-        "remark": "",
+        "remark": "（废除）",
         "children": [
           {
             "name": "tabView.js",
@@ -1125,7 +1120,7 @@
       {
         "name": "thisTable",
         "isDir": true,
-        "remark": "",
+        "remark": "（废除）",
         "children": [
           {
             "name": "thisTable.js",
@@ -1152,7 +1147,7 @@
       {
         "name": "truGetUserInfo",
         "isDir": true,
-        "remark": "",
+        "remark": "判断用户是否有授权获取用户信息，没有的话则弹出是否确认授权",
         "children": [
           {
             "name": "truGetUserInfo.js",
@@ -1179,7 +1174,7 @@
       {
         "name": "typeSelect",
         "isDir": true,
-        "remark": "",
+        "remark": "商品规格、口味的选择组件",
         "children": [
           {
             "name": "typeSelect.js",
@@ -1208,12 +1203,12 @@
   {
     "name": "pages",
     "isDir": true,
-    "remark": "",
+    "remark": "页面",
     "children": [
       {
         "name": "myOrder",
         "isDir": true,
-        "remark": "",
+        "remark": "我的订单",
         "children": [
           {
             "name": "myOrder.js",
@@ -1240,7 +1235,7 @@
       {
         "name": "appointment",
         "isDir": true,
-        "remark": "",
+        "remark": "预订单",
         "children": [
           {
             "name": "appointment.js",
@@ -1267,7 +1262,7 @@
       {
         "name": "index",
         "isDir": true,
-        "remark": "",
+        "remark": "无用文件",
         "children": [
           {
             "name": "index.js",
@@ -1289,7 +1284,7 @@
       {
         "name": "logs",
         "isDir": true,
-        "remark": "",
+        "remark": "无用文件",
         "children": [
           {
             "name": "logs.js",
@@ -1343,7 +1338,7 @@
       {
         "name": "home",
         "isDir": true,
-        "remark": "",
+        "remark": "首页",
         "children": [
           {
             "name": "home.js",
@@ -1370,7 +1365,7 @@
       {
         "name": "pay",
         "isDir": true,
-        "remark": "",
+        "remark": "买单",
         "children": [
           {
             "name": "pay.js",
@@ -1397,7 +1392,7 @@
       {
         "name": "personal",
         "isDir": true,
-        "remark": "",
+        "remark": "个人中心",
         "children": [
           {
             "name": "personal.js",
@@ -1424,7 +1419,7 @@
       {
         "name": "prePay",
         "isDir": true,
-        "remark": "",
+        "remark": "订单确认",
         "children": [
           {
             "name": "prePay.js",
@@ -1451,7 +1446,7 @@
       {
         "name": "selectMenu",
         "isDir": true,
-        "remark": "",
+        "remark": "无用文件",
         "children": [
           {
             "name": "selectMenu.js",
@@ -1478,7 +1473,7 @@
       {
         "name": "test",
         "isDir": true,
-        "remark": "",
+        "remark": "无用文件",
         "children": [
           {
             "name": "test.js",
@@ -1507,7 +1502,7 @@
   {
     "name": "iconfont.wxss",
     "isDir": false,
-    "remark": ""
+    "remark": "iconfont字体图标"
   },
   {
     "name": "app.json",
@@ -1517,12 +1512,12 @@
   {
     "name": "ext.json",
     "isDir": false,
-    "remark": ""
+    "remark": "第三方开发时的配置文件"
   },
   {
     "name": "project.config.json",
     "isDir": false,
-    "remark": ""
+    "remark": "小程序开发配置文件"
   },
   {
     "name": "project.configb_backup",

@@ -1,6 +1,8 @@
 # dir-list-maker
 
-> 生成树状的项目结构，并且可添加备注，方便新人接受或者理解项目。使用技术：vue，element-ui，nodejs。[demo](https://trubasa.github.io/dir-list-maker/dist/)
+> 生成树状的项目结构，并且可添加备注，方便新人接受或者理解项目。支持筛选。
+
+使用技术：vue，element-ui，nodejs。[例子demo](https://trubasa.github.io/dir-list-maker/dist/)
 
 ## 安装
 
@@ -16,7 +18,6 @@ npm install
 let rootPath = 'F:/svn_project/project-goodOrder/wx_app/foodOrder'
 ```
 修改项目下tools/dirListMaker/markRule.js文件，配置备注设置
-在终端运行命令生成dirList.json到static目录下
 ```javascript
 const ruler = {
   menu: '菜单页面',
@@ -26,7 +27,7 @@ const ruler = {
   //...
 }
 ```
-
+在终端运行命令生成dirList.json到static目录下
 ``` bash
 npm run dir
 ```

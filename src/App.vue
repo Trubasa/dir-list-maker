@@ -39,7 +39,7 @@
     },
     mounted(){
       var that=this;
-      fetch('/static/dirList.json',{
+      fetch('static/dirList.json',{
         method:'get'
       }).then(function(res) {
         return res.json()
