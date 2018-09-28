@@ -1,10 +1,10 @@
 {
-  "title": "点餐系统小程序",
+  "title": "中山微店",
   "list": [
     {
       "name": "build",
       "isDir": true,
-      "remark": "",
+      "remark": "开发、打包配置",
       "children": [
         {
           "name": "build.js",
@@ -51,7 +51,7 @@
     {
       "name": "config",
       "isDir": true,
-      "remark": "",
+      "remark": "开发、打包配置",
       "children": [
         {
           "name": "dev.env.js",
@@ -61,7 +61,7 @@
         {
           "name": "index.js",
           "isDir": false,
-          "remark": ""
+          "remark": "可配置开发模式的代理服务，实现前后端分离开发。配置打包后的文件名等。"
         },
         {
           "name": "prod.env.js",
@@ -73,24 +73,24 @@
     {
       "name": "src",
       "isDir": true,
-      "remark": "",
+      "remark": "源码",
       "children": [
         {
           "name": "api",
           "isDir": true,
-          "remark": "",
+          "remark": "网络请求全局处理方法",
           "children": [
             {
               "name": "api.js",
               "isDir": false,
-              "remark": "需要调用接口的一些方法，依赖common.js"
+              "remark": ""
             }
           ]
         },
         {
           "name": "assets",
           "isDir": true,
-          "remark": "",
+          "remark": "放一些通用的工具、样式、文件",
           "children": [
             {
               "name": "app.css",
@@ -100,12 +100,12 @@
             {
               "name": "bus.js",
               "isDir": false,
-              "remark": ""
+              "remark": "vue项目里，用于垮组件层级进行数据传递"
             },
             {
               "name": "common.js",
               "isDir": false,
-              "remark": "通用方法集"
+              "remark": "可复用的一些方法"
             },
             {
               "name": "logo.png",
@@ -120,7 +120,7 @@
             {
               "name": "myComponents.js",
               "isDir": false,
-              "remark": ""
+              "remark": "用于注册自己编写的vue组件与页面"
             },
             {
               "name": "scheme.css",
@@ -346,7 +346,7 @@
             {
               "name": "personal",
               "isDir": true,
-              "remark": "个人中心",
+              "remark": "",
               "children": [
                 {
                   "name": "personal.vue",
@@ -368,7 +368,7 @@
                 {
                   "name": "myAddress.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "地址管理"
                 }
               ]
             },
@@ -380,7 +380,7 @@
                 {
                   "name": "earning.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "我的收益"
                 }
               ]
             },
@@ -392,27 +392,27 @@
                 {
                   "name": "B2BorderMake.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "b2b下订"
                 },
                 {
                   "name": "goodDetail.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "商品详情"
                 },
                 {
                   "name": "orderMake.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "下订"
                 },
                 {
                   "name": "shop.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "商城"
                 },
                 {
                   "name": "shoppingCart.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "购物车"
                 },
                 {
                   "name": "shop_backup",
@@ -435,32 +435,32 @@
                 {
                   "name": "allCustomer.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "平台用户"
                 },
                 {
                   "name": "apply.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "代理申请"
                 },
                 {
                   "name": "audit.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "代理审核（经销商）"
                 },
                 {
                   "name": "changeBoss.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "更改经销商，代理更换经销商，填写相关信息的页面"
                 },
                 {
                   "name": "myCustomer.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "我推广的用户"
                 },
                 {
                   "name": "subordinate.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "我的下级"
                 }
               ]
             },
@@ -472,12 +472,12 @@
                 {
                   "name": "allOrder.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "我的订单"
                 },
                 {
                   "name": "manageOrder.vue",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "订单管理（经销商）"
                 }
               ]
             },
@@ -499,7 +499,7 @@
             {
               "name": "map.vue",
               "isDir": false,
-              "remark": ""
+              "remark": "(废弃)"
             },
             {
               "name": "qrCode.vue",
@@ -509,7 +509,7 @@
             {
               "name": "qrCodeByServer.vue",
               "isDir": false,
-              "remark": ""
+              "remark": "我的二维码"
             },
             {
               "name": "notFound.vue",
@@ -519,27 +519,27 @@
             {
               "name": "search.vue",
               "isDir": false,
-              "remark": ""
+              "remark": "搜索页（废除）"
             },
             {
               "name": "selectBoss.vue",
               "isDir": false,
-              "remark": ""
+              "remark": "选择经销商，用户进入微店的时候，若没有所属经销商的时候可在该页面选择"
             },
             {
               "name": "home.vue",
               "isDir": false,
-              "remark": ""
+              "remark": "首页"
             },
             {
               "name": "shopProfile.vue",
               "isDir": false,
-              "remark": ""
+              "remark": "店铺详情"
             },
             {
               "name": "vicinity.vue",
               "isDir": false,
-              "remark": ""
+              "remark": "附近的店铺"
             },
             {
               "name": "welcome.vue",
@@ -551,7 +551,7 @@
         {
           "name": "router",
           "isDir": true,
-          "remark": "",
+          "remark": "vue-router的配置，管理spa的路由，可查看该文件确定所有页面的跳转路径与对应文件",
           "children": [
             {
               "name": "router.js",
@@ -563,7 +563,7 @@
         {
           "name": "store",
           "isDir": true,
-          "remark": "",
+          "remark": "Vuex的配置，管理全局变量",
           "children": [
             {
               "name": "store.js",
@@ -575,19 +575,19 @@
         {
           "name": "App.vue",
           "isDir": false,
-          "remark": ""
+          "remark": "页面主文件，所有编写的页面代码最终通过该文件挂载到index.hml上"
         },
         {
           "name": "main.js",
           "isDir": false,
-          "remark": ""
+          "remark": "spa应用的主文件，在该文件里引入各种依赖"
         }
       ]
     },
     {
       "name": "static",
       "isDir": true,
-      "remark": "",
+      "remark": "静态资源目录",
       "children": [
         {
           "name": "Animate",
@@ -624,7 +624,7 @@
         {
           "name": "gaodeMap",
           "isDir": true,
-          "remark": "",
+          "remark": "项目里使用的高德地图，来自于该目录下",
           "children": [
             {
               "name": "jquery-1.8.3.min.js",
@@ -1028,14 +1028,14 @@
             {
               "name": "patch.css",
               "isDir": false,
-              "remark": ""
+              "remark": "覆盖样式，有时候在项目源码里写上的样式在打包后会失效，则可在这里协商"
             }
           ]
         },
         {
           "name": "qrCode",
           "isDir": true,
-          "remark": "",
+          "remark": "生成二维码使用的插件",
           "children": [
             {
               "name": "jquery.qrcode.min.js",
@@ -1064,7 +1064,7 @@
         {
           "name": "testJson",
           "isDir": true,
-          "remark": "",
+          "remark": "测试时用到的一些数据静态数据",
           "children": [
             {
               "name": "addDevice.json",
@@ -1106,7 +1106,7 @@
         {
           "name": "config.js",
           "isDir": false,
-          "remark": "配置项，存放接口地址等参数"
+          "remark": ""
         }
       ]
     },
@@ -1118,7 +1118,7 @@
         {
           "name": "static",
           "isDir": true,
-          "remark": "",
+          "remark": "静态资源目录",
           "children": [
             {
               "name": "Animate",
@@ -1167,7 +1167,7 @@
             {
               "name": "gaodeMap",
               "isDir": true,
-              "remark": "",
+              "remark": "项目里使用的高德地图，来自于该目录下",
               "children": [
                 {
                   "name": "jquery-1.8.3.min.js",
@@ -1728,14 +1728,14 @@
                 {
                   "name": "patch.css",
                   "isDir": false,
-                  "remark": ""
+                  "remark": "覆盖样式，有时候在项目源码里写上的样式在打包后会失效，则可在这里协商"
                 }
               ]
             },
             {
               "name": "qrCode",
               "isDir": true,
-              "remark": "",
+              "remark": "生成二维码使用的插件",
               "children": [
                 {
                   "name": "jquery.qrcode.min.js",
@@ -1764,7 +1764,7 @@
             {
               "name": "testJson",
               "isDir": true,
-              "remark": "",
+              "remark": "测试时用到的一些数据静态数据",
               "children": [
                 {
                   "name": "addDevice.json",
@@ -1806,7 +1806,7 @@
             {
               "name": "config.js",
               "isDir": false,
-              "remark": "配置项，存放接口地址等参数"
+              "remark": ""
             }
           ]
         },
