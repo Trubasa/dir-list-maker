@@ -3,8 +3,7 @@
     <div class="search_bar">
 
       <div class="project_title">
-        请选择需要查看的项目
-        <el-select v-model="selectValue" placeholder="请选择" @change="getDirList">
+        <el-select v-model="selectValue" placeholder="请选择需要查看的项目" @change="getDirList">
           <el-option
             style="display: block;"
             v-for="item in options"
@@ -13,7 +12,9 @@
             :value="item.fileName">
           </el-option>
         </el-select>
+
       </div>
+
 
       <el-input
         placeholder="输入关键字进行过滤"
@@ -130,7 +131,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
-    padding: 116px 10px 10px;
+    padding: 116px 0px 10px;
   }
 
   h1, h2 {
@@ -142,10 +143,10 @@
     padding: 0;
   }
 
-  li {
+  /*li {
     display: inline-block;
     margin: 0 10px;
-  }
+  }*/
 
   a {
     color: #42b983;
@@ -161,6 +162,6 @@
     z-index: 10;
   }
   .project_title{
-    padding: 10px;
+    padding-bottom: 10px ;
   }
 </style>
