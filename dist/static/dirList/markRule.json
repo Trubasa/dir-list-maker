@@ -1,0 +1,1856 @@
+{
+  "title": "点餐系统小程序",
+  "list": [
+    {
+      "name": "build",
+      "isDir": true,
+      "remark": "",
+      "children": [
+        {
+          "name": "build.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "check-versions.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "logo.png",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "utils.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "vue-loader.conf.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "webpack.base.conf.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "webpack.dev.conf.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "webpack.prod.conf.js",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "config",
+      "isDir": true,
+      "remark": "",
+      "children": [
+        {
+          "name": "dev.env.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "index.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "prod.env.js",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "isDir": true,
+      "remark": "",
+      "children": [
+        {
+          "name": "api",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "api.js",
+              "isDir": false,
+              "remark": "需要调用接口的一些方法，依赖common.js"
+            }
+          ]
+        },
+        {
+          "name": "assets",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "app.css",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "bus.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "common.js",
+              "isDir": false,
+              "remark": "通用方法集"
+            },
+            {
+              "name": "logo.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "media.css",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myComponents.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "scheme.css",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "components",
+          "isDir": true,
+          "remark": "组件",
+          "children": [
+            {
+              "name": "good",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "goodItem.vue",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "GoodImgLimit.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "addressSelect.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "addressSwiper.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "adminOrderItem.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "alert.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "auditItem.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "bannerSwiper.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "bindPhone.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "classifyPanel.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "classifySelect.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "confirm.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "customerItem.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "depositApply.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "earningOrderItem.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "floatPanel.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "gaodeMethods.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "addGood.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodGroup.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "addressItem.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodSameSwiper.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodSwiper.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "homeClassify.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ImgLimit.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "loading.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "login.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "module.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "noData.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "orderBackBean.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "orderGoodItem.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "orderGoodItemFinal.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "orderStatus.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "panel.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "pullDownRefresh.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "selectBossComponent.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "shopImgSwiper.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "shoppingCartItem.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "TypeSelect.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "userOrderItem.vue",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "pages",
+          "isDir": true,
+          "remark": "页面",
+          "children": [
+            {
+              "name": "personal",
+              "isDir": true,
+              "remark": "个人中心",
+              "children": [
+                {
+                  "name": "personal.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "userInfo.vue",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "address",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "myAddress.vue",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "earning",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "earning.vue",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "shop",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "B2BorderMake.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "goodDetail.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "orderMake.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "shop.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "shoppingCart.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "shop_backup",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "login",
+              "isDir": true,
+              "remark": "",
+              "children": []
+            },
+            {
+              "name": "distributor",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "allCustomer.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "apply.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "audit.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "changeBoss.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "myCustomer.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "subordinate.vue",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "order",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "allOrder.vue",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "manageOrder.vue",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "qrCodeByShare.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myPage.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myContent.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "map.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "qrCode.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "qrCodeByServer.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "notFound.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "search.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "selectBoss.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "home.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "shopProfile.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "vicinity.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "welcome.vue",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "router",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "router.js",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "store",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "store.js",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "App.vue",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "main.js",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "static",
+      "isDir": true,
+      "remark": "",
+      "children": [
+        {
+          "name": "Animate",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "animate.min.css",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "index.html",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "jquery-1.8.3.min.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "jquery插件库.url",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "www.jq22.com.txt",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "gaodeMap",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "jquery-1.8.3.min.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "main.css",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "map.html",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "mapGoal.html",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "vicinity.html",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "image",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "banner",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "640-03.jpg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "640-04.jpg",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "default",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "default1_1.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "default2_1.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "default3_4.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "default4_3.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "default_user_profile.jpg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "good_default.jpg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "not_found.jpg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "user_profile_default.png",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "detail",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "good_detail_01.jpg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "good_detail_02.jpg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "good_detail_03.jpg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "good_detail_04.jpg",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "control",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "control_mic_reduce.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_audio_radio.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_fun_2.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_back.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_bottom.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_colse.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_down.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_home.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_left.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_multitasking.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_mute.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_open.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_play.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_right.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_top.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_true.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_infrared_up.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_mic_increase.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_mic_quiet.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_fun_1.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_pad.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_pc.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_power.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_projector_system_HDMI1.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_projector_system_off.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_projector_system_on.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_projector_system_shut.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_projector_system_start.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_projector_system_WGA1.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_screen_down.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_screen_stop.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_screen_up.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_shadow.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_show.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_system_end.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_system_start.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_voice_increase.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_voice_quiet.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "control_voice_reduce.png",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "share",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "black_bg_img.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "company_icon.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "company_logo.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "line_decoration.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "reb_bg_decoration.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "subscribe.png",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "shop_profile.jpg",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "loading_puff.svg",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "login_bg.jpg",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "miku.jpg",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "loading-cover.gif",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "loading_physics.gif",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "patch",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "patch.css",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "qrCode",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "jquery.qrcode.min.js",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "ripple",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "ripple.css",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ripple.js",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "testJson",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "addDevice.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "areaList.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "deviceList.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "maintainList.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "orderList.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "timeList.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "userList.json",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "config.js",
+          "isDir": false,
+          "remark": "配置项，存放接口地址等参数"
+        }
+      ]
+    },
+    {
+      "name": "xidun",
+      "isDir": true,
+      "remark": "",
+      "children": [
+        {
+          "name": "static",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "Animate",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "animate.min.css",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "index.html",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "jquery-1.8.3.min.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "jquery插件库.url",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "www.jq22.com.txt",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "css",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "app.8abf4815dab294c47cea720fc4bf4b1e.css",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "gaodeMap",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "jquery-1.8.3.min.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "main.css",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "map.html",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "mapGoal.html",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "vicinity.html",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "image",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "banner",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "640-03.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "640-04.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "default",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "default1_1.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "default2_1.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "default3_4.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "default4_3.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "default_user_profile.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "good_default.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "not_found.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "user_profile_default.png",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "detail",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "good_detail_01.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "good_detail_02.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "good_detail_03.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "good_detail_04.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "control",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "control_mic_reduce.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_audio_radio.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_fun_2.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_back.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_bottom.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_colse.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_down.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_home.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_left.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_multitasking.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_mute.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_open.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_play.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_right.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_top.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_true.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_infrared_up.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_mic_increase.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_mic_quiet.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_fun_1.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_pad.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_pc.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_power.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_projector_system_HDMI1.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_projector_system_off.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_projector_system_on.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_projector_system_shut.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_projector_system_start.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_projector_system_WGA1.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_screen_down.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_screen_stop.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_screen_up.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_shadow.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_show.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_system_end.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_system_start.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_voice_increase.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_voice_quiet.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "control_voice_reduce.png",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "share",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "black_bg_img.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "company_icon.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "company_logo.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "line_decoration.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "reb_bg_decoration.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "subscribe.png",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "shop_profile.jpg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "loading_puff.svg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "login_bg.jpg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "miku.jpg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "loading-cover.gif",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "loading_physics.gif",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "js",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "22.1d1111a6b98a3b8ddbb9.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "0.87e0e7bc3e091393a28e.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "10.98821f5a13918ded8168.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "11.06f6e45c64bb60e15067.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "12.9e79cc6019dac80f6324.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "13.b1a33fedf1b08fa19fed.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "14.8dcb87279de1aafd25f6.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "15.9af72391829c8618e8cb.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "16.796cfa83fe5775191f1c.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "17.793f6a58fb20a0f0f5d9.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "18.d9c8d7f2ad3c92c2e316.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "19.167090c6ae49ebdbad2b.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "2.709db793a31d2eb94501.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "20.2cddc76637b2f986a44c.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "21.a0909482947d446984b1.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "1.7ff5360136a6d6303b95.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "23.b0852e002a9c77b2fecc.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "24.aa3293aefd34ecdc62ba.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "25.0867e8c2f12817b931a7.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "26.03957f8e49bed525cbe3.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "3.bb1501a3be7f46af5c9f.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "4.2dce4d1ec8ffe9e0b736.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "5.4b39e935776dbf7d2d28.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "6.ec6b63e545ec4fef6a72.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "7.b612b4095e6f9d494ecf.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "8.6fac2ae20703d8ca329b.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "9.7c869998bd32939acd0b.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "app.23b2303e945b0f9ae501.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "manifest.dfa820db706e2b4b8b4c.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "vendor.110208801740ee8ce5b2.js",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "patch",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "patch.css",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "qrCode",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "jquery.qrcode.min.js",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "ripple",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "ripple.css",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "ripple.js",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "testJson",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "addDevice.json",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "areaList.json",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "deviceList.json",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "maintainList.json",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "orderList.json",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "timeList.json",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "userList.json",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "config.js",
+              "isDir": false,
+              "remark": "配置项，存放接口地址等参数"
+            }
+          ]
+        },
+        {
+          "name": "index.html",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "package.json",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "xidun.zip",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "README.md",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "favicon.ico",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "index.html",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "package-lock.json",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "README-project.md",
+      "isDir": false,
+      "remark": ""
+    }
+  ]
+}

@@ -1,7 +1,20 @@
 <template>
   <div id="app">
     <div class="search_bar">
-      <div class="project_title">点餐小程序项目目录结构</div>
+
+      <div class="project_title">
+        请选择需要查看的项目
+        <el-select v-model="selectValue" placeholder="请选择" @change="getDirList">
+          <el-option
+            style="display: block;"
+            v-for="item in options"
+            :key="item.fileName"
+            :label="item.name"
+            :value="item.fileName">
+          </el-option>
+        </el-select>
+      </div>
+
       <el-input
         placeholder="输入关键字进行过滤"
         v-model="filterText">
@@ -29,6 +42,8 @@
     name: 'app',
     data() {
       return {
+        selectValue:'',
+        options:[],
         filterText: '',
         data2: [],
         defaultProps: {
@@ -38,17 +53,11 @@
       };
     },
     mounted(){
+
       var that=this;
-      fetch('static/dirList.json',{
-        method:'get'
-      }).then(function(res) {
-        return res.json()
-      }).then(function (data) {
-        console.log(data);
-        that.data2=that.dataTransform(data)
-      }).catch(function(err) {
-        // 出错了;等价于 then 的第二个参数,但这样更好用更直观 :(
-      });
+      this.getDirDir();
+
+
     },
     watch: {
       filterText(val) {
@@ -57,6 +66,34 @@
     },
 
     methods: {
+      getDirDir(){
+        var that=this;
+        fetch('static/dirList.json',{
+          method:'get'
+        }).then(function(res) {
+          return res.json()
+        }).then(function (data) {
+          console.log(data);
+          that.options=data
+        }).catch(function(err) {
+          // 出错了;等价于 then 的第二个参数,但这样更好用更直观 :(
+        });
+      },
+      getDirList(fileName){
+        var that=this;
+        fetch('static/dirList/'+fileName,{
+          method:'get'
+        }).then(function(res) {
+          return res.json()
+        }).then(function (data) {
+          console.log(data);
+          var list=that.dataTransform(data.list)
+          that.data2=list;
+        }).catch(function(err) {
+          // 出错了;等价于 then 的第二个参数,但这样更好用更直观 :(
+        });
+
+      },
       dataTransform(list){
         list=list.map((ele)=>{
           ele.label=ele.name;
@@ -92,9 +129,8 @@
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
     color: #2c3e50;
-    padding: 100px 10px 10px;
+    padding: 116px 10px 10px;
   }
 
   h1, h2 {

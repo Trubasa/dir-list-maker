@@ -1,0 +1,2582 @@
+{
+  "title": "配灯web版",
+  "list": [
+    {
+      "name": "build",
+      "isDir": true,
+      "remark": "开发、打包配置",
+      "children": [
+        {
+          "name": "build.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "check-versions.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "dev-client.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "dev-server.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "utils.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "vue-loader.conf.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "webpack.base.conf.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "webpack.dev.conf.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "webpack.prod.conf.js",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "config",
+      "isDir": true,
+      "remark": "开发、打包配置",
+      "children": [
+        {
+          "name": "dev.env.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "index.js",
+          "isDir": false,
+          "remark": "可配置开发模式的代理服务，实现前后端分离开发。配置打包后的文件名等。"
+        },
+        {
+          "name": "prod.env.js",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "isDir": true,
+      "remark": "源码",
+      "children": [
+        {
+          "name": "assets",
+          "isDir": true,
+          "remark": "放一些通用的工具、样式、文件",
+          "children": [
+            {
+              "name": "bootstrap",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "dist",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "css",
+                      "isDir": true,
+                      "remark": "",
+                      "children": [
+                        {
+                          "name": "bootstrap-theme.css",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "bootstrap-theme.css.map",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "bootstrap-theme.min.css",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "bootstrap-theme.min.css.map",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "bootstrap.css",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "bootstrap.css.map",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "bootstrap.min.css",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "bootstrap.min.css.map",
+                          "isDir": false,
+                          "remark": ""
+                        }
+                      ]
+                    },
+                    {
+                      "name": "fonts",
+                      "isDir": true,
+                      "remark": "",
+                      "children": [
+                        {
+                          "name": "glyphicons-halflings-regular.eot",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "glyphicons-halflings-regular.svg",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "glyphicons-halflings-regular.ttf",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "glyphicons-halflings-regular.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "glyphicons-halflings-regular.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        }
+                      ]
+                    },
+                    {
+                      "name": "js",
+                      "isDir": true,
+                      "remark": "",
+                      "children": [
+                        {
+                          "name": "bootstrap.js",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "bootstrap.min.js",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "npm.js",
+                          "isDir": false,
+                          "remark": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "fonts",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "glyphicons-halflings-regular.eot",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "glyphicons-halflings-regular.svg",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "glyphicons-halflings-regular.ttf",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "glyphicons-halflings-regular.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "glyphicons-halflings-regular.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "grunt",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "bs-commonjs-generator.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "bs-glyphicons-data-generator.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "bs-lessdoc-parser.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "bs-raw-files-generator.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "change-version.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "configBridge.json",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "npm-shrinkwrap.json",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "sauce_browsers.yml",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "js",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "modal.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "affix.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "button.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "carousel.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "collapse.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "dropdown.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "alert.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "popover.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "scrollspy.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "tab.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "tooltip.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "transition.js",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "less",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "mixins",
+                      "isDir": true,
+                      "remark": "",
+                      "children": [
+                        {
+                          "name": "nav-vertical-align.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "alerts.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "border-radius.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "buttons.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "center-block.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "clearfix.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "forms.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "gradients.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "grid-framework.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "grid.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "hide-text.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "image.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "labels.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "list-group.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "nav-divider.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "background-variant.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "opacity.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "pagination.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "panels.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "progress-bar.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "reset-filter.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "reset-text.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "resize.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "responsive-visibility.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "size.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "tab-focus.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "table-row.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "text-emphasis.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "text-overflow.less",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "vendor-prefixes.less",
+                          "isDir": false,
+                          "remark": ""
+                        }
+                      ]
+                    },
+                    {
+                      "name": "modals.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "bootstrap.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "breadcrumbs.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "button-groups.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "buttons.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "carousel.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "close.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "code.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "component-animations.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "dropdowns.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "forms.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "glyphicons.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "grid.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "input-groups.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "jumbotron.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "labels.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "list-group.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "media.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "alerts.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "mixins.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "badges.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "navbar.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "navs.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "normalize.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "pager.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "pagination.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "panels.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "popovers.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "print.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "progress-bars.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "responsive-embed.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "responsive-utilities.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "scaffolding.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "tables.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "theme.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "thumbnails.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "tooltip.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "type.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "utilities.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "variables.less",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "wells.less",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "CHANGELOG.md",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "Gruntfile.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "LICENSE",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "package.json",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "README.md",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "html2canvas",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "dist",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "html2canvas.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "html2canvas.min.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "html2canvas.svg.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "html2canvas.svg.min.js",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "CHANGELOG.md",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "LICENSE",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "package.json",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "readme.md",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "jquery-weui",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "screenshot",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "dialog.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "actions.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "buttons.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "calendar.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "cell.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "code.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "address.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "form.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "grid.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "photos.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "pull.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "select.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "toast.png",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "vcode",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "alipay.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "wechat.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "changelog.md",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "gulpfile.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "LICENSE",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "logo.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "package.json",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "README.md",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "qrCode",
+              "isDir": true,
+              "remark": "生成二维码使用的插件",
+              "children": [
+                {
+                  "name": "qrcode.min.js",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "bus.js",
+              "isDir": false,
+              "remark": "vue项目里，用于垮组件层级进行数据传递"
+            },
+            {
+              "name": "config.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "date.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "form.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "logo.png",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "components",
+          "isDir": true,
+          "remark": "组件",
+          "children": [
+            {
+              "name": "ImgSwiper.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "BtnIcon.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "CoverLocat.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "CustomerManage.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "DesignArea.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "DesignAreaShow.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "DesignSite.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "EditAddress.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "GoodImg.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "GoodImgLimit.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "GoodSelect.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "GoodSelectOnce.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "GoodSelect_backup.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "GoodsTab.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Hello.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "imgBox.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ImgControl.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ImgDetail.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ImgLimit.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ImgLimitScence.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ImgLimitWidther.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Collection.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ImgSwiperShow.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ImgUpload.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ImgWindow.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "LeftSide.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "MyHeader.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "MyOrder.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "MyOrder_backup",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "MySwiper.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "PicUpload.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "PicUploadLess.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Record.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Share.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "SwiperVer.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "SwiperVerShow.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "SwitchItem.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Talk.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Test.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "truImage.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "TypeSelect.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "TypeSelectNew.vue",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "pages",
+          "isDir": true,
+          "remark": "页面",
+          "children": [
+            {
+              "name": "SchemeEdit.vue",
+              "isDir": false,
+              "remark": "方案编辑"
+            },
+            {
+              "name": "BrandCenter.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "GoodDetail.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "GoodDetailCopy.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "GoodDetail_callback",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Home.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Login.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "OrderDetail.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "PayPage.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Personal.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "RemarkAdd.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "RemarkShow.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Renovation.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "RenovationAdd.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "RenovationDetail.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "RenovationDetailSwiper.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "replenish.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "replenishCart.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Scence.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ScenceSelect.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ScenceSelectRe.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Scheme.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "SchemeAdd.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "CustomerManage_back.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "SchemeElite.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "SchemeMine.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "SchemeRemark.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "SchemeShow.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ServerAdvice.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ServerApply.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ServerApplyAdd.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ServerApplyDetail.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ServerBom.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ServerCenter.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ServerQuestion.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ServerQuestionDetail.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ShopoingCart_back.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "ShoppingCart.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Simulate.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "SimulateRe.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "Simulate_backup.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "StoreCenter.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "SubmitCustomer.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "SubmitOrder.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "UserCenter.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "WholeScene.vue",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "App.vue",
+          "isDir": false,
+          "remark": "页面主文件，所有编写的页面代码最终通过该文件挂载到index.hml上"
+        },
+        {
+          "name": "main.js",
+          "isDir": false,
+          "remark": "spa应用的主文件，在该文件里引入各种依赖"
+        }
+      ]
+    },
+    {
+      "name": "static",
+      "isDir": true,
+      "remark": "静态资源目录",
+      "children": [
+        {
+          "name": "Animate",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "animate.min.css",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "index.html",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "jquery-1.8.3.min.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "jquery插件库.url",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "www.jq22.com.txt",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "data",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "address.json",
+              "isDir": false,
+              "remark": "地址选择的数据源"
+            }
+          ]
+        },
+        {
+          "name": "html2canvas",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "dist",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "html2canvas.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "html2canvas.min.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "html2canvas.svg.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "html2canvas.svg.min.js",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "CHANGELOG.md",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "LICENSE",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "package.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "readme.md",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "images",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "extra",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "home_title_icon_2.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "car_normal1@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "collect_pressed@2y.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "default4_3.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "go_sence_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "home_title_icon.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "collect_pressed@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "loading.svg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "share_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "triangle.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "usurp.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "usurp2_1.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "usurp_scence.png",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "light-store",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "Firsticon",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "back_highlight@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "back_normal@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "nav_more@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "title_logo.png",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "icon",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "Icon-120.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Icon-72.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Icon-72@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Icon-76.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Icon-76@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Icon@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "loginVCicon",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "accounttxt_bg@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "login_bg@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "logo.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "logo_2.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "passwordtxt_bg@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "peidengdashi@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "remeber_bg@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "remeber_checked@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "remeber_unckecked@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "tiyanzhanghao@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "Maintabaricon",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "brand_highlight@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "case_highlight@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "home_highlight@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "my_center_highlight@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "peideng_highlight@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "plan_highlight@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "product_icon_highlight@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "service_center_highlight@2x.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "title_logo.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "view.png",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "storeCenter",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "back.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "goodstock.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "O2O.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "share.png",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "store_center_bg.jpg",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "go_sence_active@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "address_default@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "address_undefault@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "add_address_bg_active@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "add_address_bg_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "add_address_short_txt_bg@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "add_apply_active@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "add_apply_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "add_case_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "add_case_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "add_case_thumb_bg@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "add_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "add_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "amount_bg@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "back_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "balconyDefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "balconyHight.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "bom_check_btn_bg_active@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "bom_check_btn_bg_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "bright_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "bright_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "CardDefault@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "CardHight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "card_clean_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "card_clean_pressed@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "card_good_clean_all_disable_bg@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "card_good_select@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "card_good_unselect@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "carefully_search_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "carefully_search_pressed@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "car_normal1@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "car_press1@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "case_edit_bg@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "case_edit_bg_click@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "case_edit_normal_icon@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "case_tag@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "childrenRoomDefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "childrenRoomHight.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "clear_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "clear_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "cloakRoomDefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "cloakRoomHight.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "close_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "close_pressed@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "code.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "collapse@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "collapse_right@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "collect_pressed@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "decr_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "decr_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "detail_address@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "down@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "down_arrow_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "down_arrow_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "addAreaButtonDefault@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "good_card_null_tip.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "good_collect_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "good_default.jpg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "good_default@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "addAreaButtonHight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "go_sence_disable@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "go_sence_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "addBackgroundImage.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "kitchenDefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "kitchenHight.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "livingRoomDefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "livingRoomHight.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "addImageDefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "addImageHight.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "masterBedRoomdefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "masterBedRoomHight.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "mirror_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "mirror_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "my_delete_active@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "my_delete_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "my_edit_active@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "my_edit_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "my_exit_active@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "my_exit_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "my_plan_edit_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "my_plan_edit_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "new_order_cancel@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "noMyPlan@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "order_new_jt@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "order_seacher_txt@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "order_search@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "order_state_bg_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "photo_add_bg@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "plan_add_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "plan_add_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "product_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "product_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "pushButtonDefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "pushButtonHight.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "question_desc@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "question_type@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "restaurantDefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "restaurantHight.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "save1_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "save1_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "save_case_disable@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "save_case_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "save_case_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "scene_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "scene_leftbar_bg@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "scene_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "scene_share_icon_active@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "scene_share_icon_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "search@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "secondBedRoomDefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "secondBedRoomHight.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "select_ablum_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "select_ablum_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "share_active@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "share_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "address_back_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "studyRoomDefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "studyRoomHight.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "tab_card@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "take_photo_highlight@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "take_photo_normal@2x.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "wCDefault.png",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "wCHight.png",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loader",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "css",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "lanrenzhijia.css",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "loaders.css",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "index.html",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "lanrenzhijia.com下载说明.txt",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "访问懒人之家.url",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "normalize.css",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "CHANGELOG.md",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "LICENSE.md",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "normalize.css",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "package.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "README.md",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "qrCode",
+          "isDir": true,
+          "remark": "生成二维码使用的插件",
+          "children": [
+            {
+              "name": "qrcode.min.js",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "reset",
+          "isDir": true,
+          "remark": "覆盖样式",
+          "children": [
+            {
+              "name": "reset.css",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "swiper",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "swiper-3.4.2.min.css",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "config.js",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "favicon.ico",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "index.html",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "package-lock.json",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "package.json",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "README.md",
+      "isDir": false,
+      "remark": ""
+    }
+  ]
+}

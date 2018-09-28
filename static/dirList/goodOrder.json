@@ -1,0 +1,1515 @@
+{
+  "title": "点餐系统小程序",
+  "list": [
+    {
+      "name": "images",
+      "isDir": true,
+      "remark": "",
+      "children": [
+        {
+          "name": "system",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "error.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "icon_right.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "loading.jpg",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "tabBar",
+          "isDir": true,
+          "remark": "小程序下方的按钮图片",
+          "children": [
+            {
+              "name": "home.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "home_active.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "menu.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "menu_active.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myOrder.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myOrder_active.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "pay.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "pay_active.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "user.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "user_active.png",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "add.png",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "carts.png",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "clearCart.png",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "colose.png",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "reduction.png",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "shoppingCart.png",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "utils",
+      "isDir": true,
+      "remark": "工具集，一些公用的方法都放在这里",
+      "children": [
+        {
+          "name": "api.js",
+          "isDir": false,
+          "remark": "需要调用接口的一些方法，依赖common.js"
+        },
+        {
+          "name": "common.js",
+          "isDir": false,
+          "remark": "通用方法集"
+        },
+        {
+          "name": "config.js",
+          "isDir": false,
+          "remark": "配置项，存放接口地址等参数"
+        },
+        {
+          "name": "dataTransform.js",
+          "isDir": false,
+          "remark": "在数据提交、或者调用接口后，用于数据的转化"
+        },
+        {
+          "name": "netWork.js",
+          "isDir": false,
+          "remark": "网络请求的方法，接口的全局处理等"
+        },
+        {
+          "name": "util.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "vuefy.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "watch.js",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "templates",
+      "isDir": true,
+      "remark": "模板,功能与组件类似，但偏重于显示，不包含太多处理逻辑",
+      "children": [
+        {
+          "name": "col-item",
+          "isDir": true,
+          "remark": "（无用）",
+          "children": [
+            {
+              "name": "col-item.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "col-item.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "col-item.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "col-item.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "listItem",
+          "isDir": true,
+          "remark": "点餐页面商品列表里的商品展示",
+          "children": [
+            {
+              "name": "listItem.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "listItem.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "listItem.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "listItem.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "order-item-tpl",
+          "isDir": true,
+          "remark": "订单详情",
+          "children": [
+            {
+              "name": "order-item-tpl.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "order-item-tpl.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "order-item-tpl.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "order-item-tpl.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "components",
+      "isDir": true,
+      "remark": "组件",
+      "children": [
+        {
+          "name": "myDialog",
+          "isDir": true,
+          "remark": "弹出框，2种样式 有黑色遮罩/没有黑色遮罩",
+          "children": [
+            {
+              "name": "myDialog.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myDialog.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myDialog.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myDialog.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "appointmentItem",
+          "isDir": true,
+          "remark": "预约单列表的每一个单独的预约单对象（废弃）",
+          "children": [
+            {
+              "name": "appointmentItem.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "appointmentItem.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "appointmentItem.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "appointmentItem.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "comboList",
+          "isDir": true,
+          "remark": "点餐页面里，套餐的列表",
+          "children": [
+            {
+              "name": "comboList.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboList.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboList.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboList.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "comboListItem",
+          "isDir": true,
+          "remark": "点餐页面里，套餐的列表每一项套餐",
+          "children": [
+            {
+              "name": "comboListItem.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboListItem.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboListItem.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboListItem.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "comboPanel",
+          "isDir": true,
+          "remark": "点餐页面里，点击套餐后弹出的框",
+          "children": [
+            {
+              "name": "comboPanel.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboPanel.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboPanel.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboPanel.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "comboPanelItem",
+          "isDir": true,
+          "remark": "点餐页面里，点击套餐后弹出的框的每一个分项",
+          "children": [
+            {
+              "name": "comboPanelItem.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboPanelItem.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboPanelItem.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "comboPanelItem.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "foodCart",
+          "isDir": true,
+          "remark": "购物车组件，包括那个下单/预约的按钮也在这个组件里，点击按钮后提交时间到menu页面进行数据处理",
+          "children": [
+            {
+              "name": "foodCart.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodCart.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodCart.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodCart.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "foodCartComboItem",
+          "isDir": true,
+          "remark": "购物车里显示所选套餐",
+          "children": [
+            {
+              "name": "foodCartComboItem.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodCartComboItem.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodCartComboItem.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodCartComboItem.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "foodCartItem",
+          "isDir": true,
+          "remark": "购物车里显示所选单品",
+          "children": [
+            {
+              "name": "foodCartItem.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodCartItem.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodCartItem.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodCartItem.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "foodMenu",
+          "isDir": true,
+          "remark": "菜牌组件，左侧为商品分类，右侧为商品列表",
+          "children": [
+            {
+              "name": "foodMenu.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodMenu.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodMenu.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "foodMenu.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "goodDetail",
+          "isDir": true,
+          "remark": "商品详情弹框",
+          "children": [
+            {
+              "name": "goodDetail.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodDetail.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodDetail.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodDetail.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "goodItem",
+          "isDir": true,
+          "remark": "点餐页面里，商品列表里每个商品的对象",
+          "children": [
+            {
+              "name": "goodItem.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodItem.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodItem.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodItem.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "goodOrderShow",
+          "isDir": true,
+          "remark": "订单确认和预约界面用户显示订单内容的组件",
+          "children": [
+            {
+              "name": "goodOrderShow.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodOrderShow.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodOrderShow.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "goodOrderShow.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "iconButton",
+          "isDir": true,
+          "remark": "首页的图标按钮",
+          "children": [
+            {
+              "name": "iconButton.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "iconButton.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "iconButton.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "iconButton.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "listButton",
+          "isDir": true,
+          "remark": "个人页的每项功能",
+          "children": [
+            {
+              "name": "listButton.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "listButton.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "listButton.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "listButton.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "moreTypeSelector",
+          "isDir": true,
+          "remark": "选规格组件",
+          "children": [
+            {
+              "name": "moreTypeSelector.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "moreTypeSelector.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "moreTypeSelector.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "moreTypeSelector.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "myButton",
+          "isDir": true,
+          "remark": "自定义按钮组件（基本没怎么用到）",
+          "children": [
+            {
+              "name": "myButton.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myButton.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myButton.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myButton.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "classifyTop",
+          "isDir": true,
+          "remark": "在swiperView里面，顶部的分类组件",
+          "children": [
+            {
+              "name": "classifyTop.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "classifyTop.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "classifyTop.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "classifyTop.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "myNumberSelector",
+          "isDir": true,
+          "remark": "数量加减选择器",
+          "children": [
+            {
+              "name": "myNumberSelector.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myNumberSelector.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myNumberSelector.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myNumberSelector.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "myPopupBottom",
+          "isDir": true,
+          "remark": "弹出框，从下方弹出（没用到）",
+          "children": [
+            {
+              "name": "myPopupBottom.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myPopupBottom.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myPopupBottom.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myPopupBottom.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "myPopupRight",
+          "isDir": true,
+          "remark": "弹出框，从右方弹出，选择套菜内容的时候就有使用这个右侧弹出",
+          "children": [
+            {
+              "name": "myPopupRight.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myPopupRight.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myPopupRight.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myPopupRight.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "myTitle",
+          "isDir": true,
+          "remark": "标题组件，首页的'今日推荐'，菜单页面商品列表每项头的标题使用的组件",
+          "children": [
+            {
+              "name": "myTitle.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myTitle.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myTitle.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myTitle.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "orderItem",
+          "isDir": true,
+          "remark": "订单列表，每个订单项",
+          "children": [
+            {
+              "name": "orderItem.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "orderItem.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "orderItem.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "orderItem.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "personalProfile",
+          "isDir": true,
+          "remark": "个人中心，个人信息的组件",
+          "children": [
+            {
+              "name": "personalProfile.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "personalProfile.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "personalProfile.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "personalProfile.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "recommendGoodItem",
+          "isDir": true,
+          "remark": "首页推荐商品组件",
+          "children": [
+            {
+              "name": "recommendGoodItem.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "recommendGoodItem.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "recommendGoodItem.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "recommendGoodItem.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "rowView",
+          "isDir": true,
+          "remark": "行组件，下单页面和预约页面有用来，用来规定一行的显示",
+          "children": [
+            {
+              "name": "rowView.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "rowView.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "rowView.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "rowView.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "scrollLoader",
+          "isDir": true,
+          "remark": "滚动到底部加载更多数据",
+          "children": [
+            {
+              "name": "scrollLoader.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "scrollLoader.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "scrollLoader.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "scrollLoader.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "shoppingCart",
+          "isDir": true,
+          "remark": "（废除）",
+          "children": [
+            {
+              "name": "shoppingCart.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "shoppingCart.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "shoppingCart.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "shoppingCart.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "shopProfile",
+          "isDir": true,
+          "remark": "首页店铺信息组件",
+          "children": [
+            {
+              "name": "shopProfile.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "shopProfile.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "shopProfile.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "shopProfile.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "swiperView",
+          "isDir": true,
+          "remark": "左右滑动切换组件",
+          "children": [
+            {
+              "name": "swiperView.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "swiperView.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "swiperView.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "swiperView.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "tabView",
+          "isDir": true,
+          "remark": "（废除）",
+          "children": [
+            {
+              "name": "tabView.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "tabView.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "tabView.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "tabView.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "thisTable",
+          "isDir": true,
+          "remark": "（废除）",
+          "children": [
+            {
+              "name": "thisTable.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "thisTable.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "thisTable.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "thisTable.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "truGetUserInfo",
+          "isDir": true,
+          "remark": "判断用户是否有授权获取用户信息，没有的话则弹出是否确认授权",
+          "children": [
+            {
+              "name": "truGetUserInfo.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "truGetUserInfo.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "truGetUserInfo.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "truGetUserInfo.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "typeSelect",
+          "isDir": true,
+          "remark": "商品规格、口味的选择组件",
+          "children": [
+            {
+              "name": "typeSelect.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "typeSelect.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "typeSelect.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "typeSelect.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pages",
+      "isDir": true,
+      "remark": "页面",
+      "children": [
+        {
+          "name": "myOrder",
+          "isDir": true,
+          "remark": "我的订单",
+          "children": [
+            {
+              "name": "myOrder.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myOrder.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myOrder.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myOrder.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "appointment",
+          "isDir": true,
+          "remark": "预订单",
+          "children": [
+            {
+              "name": "appointment.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "appointment.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "appointment.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "appointment.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "index",
+          "isDir": true,
+          "remark": "无用文件",
+          "children": [
+            {
+              "name": "index.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "index.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "index.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "logs",
+          "isDir": true,
+          "remark": "无用文件",
+          "children": [
+            {
+              "name": "logs.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "logs.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "logs.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "logs.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "menu",
+          "isDir": true,
+          "remark": "菜单页面",
+          "children": [
+            {
+              "name": "menu.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "menu.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "menu.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "menu.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "home",
+          "isDir": true,
+          "remark": "首页",
+          "children": [
+            {
+              "name": "home.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "home.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "home.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "home.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "pay",
+          "isDir": true,
+          "remark": "买单",
+          "children": [
+            {
+              "name": "pay.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "pay.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "pay.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "pay.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "personal",
+          "isDir": true,
+          "remark": "个人中心",
+          "children": [
+            {
+              "name": "personal.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "personal.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "personal.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "personal.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "prePay",
+          "isDir": true,
+          "remark": "订单确认",
+          "children": [
+            {
+              "name": "prePay.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "prePay.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "prePay.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "prePay.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "selectMenu",
+          "isDir": true,
+          "remark": "无用文件",
+          "children": [
+            {
+              "name": "selectMenu.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "selectMenu.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "selectMenu.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "selectMenu.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "test",
+          "isDir": true,
+          "remark": "无用文件",
+          "children": [
+            {
+              "name": "test.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "test.json",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "test.wxml",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "test.wxss",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iconfont.wxss",
+      "isDir": false,
+      "remark": "iconfont字体图标"
+    },
+    {
+      "name": "app.json",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "ext.json",
+      "isDir": false,
+      "remark": "第三方开发时的配置文件"
+    },
+    {
+      "name": "project.config.json",
+      "isDir": false,
+      "remark": "小程序开发配置文件"
+    },
+    {
+      "name": "project.configb_backup",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "app.wxss",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "app.js",
+      "isDir": false,
+      "remark": ""
+    }
+  ]
+}

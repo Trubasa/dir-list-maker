@@ -3,12 +3,52 @@
  */
 const fs = require('fs');
 const path = require('path');
-const markRule = require('./markRule')
+let markRule = null;
+const ignoreRule = require('./ignoreRule')
 
 let savePath = path.resolve('static')
+let dirListPath='/dirList'
+let rulePath=path.resolve(__dirname,'../markRule')
 
 let page = {
-  readDir(path) {
+  getRuleList(){ //获取匹配规则列表
+    let list=fs.readdirSync(rulePath);
+    return list;
+  },
+  calculateList(){
+    let list=fs.readdirSync(savePath+dirListPath);
+    let ary=list.map((ele)=>{
+      let data=JSON.parse(fs.readFileSync(savePath+dirListPath+'/'+ele).toString())
+        ele={
+          name:data.title,
+          fileName:ele
+        }
+        return ele;
+    });
+
+    fs.writeFile(savePath+'/dirList.json',JSON.stringify(ary,null,2),function (err) {
+      if (err) {
+        return console.error(err);
+      }
+      console.log('dirList.json生成成功');
+    })
+  },
+  saveDirList(saveName,data,resolve,reject){ //保存目录结构
+    fs.writeFile(savePath + dirListPath+'/'+saveName+'.json', data, function (err) {
+      if (err) {
+        return console.error(err);
+        if(reject){
+          reject()
+        }
+      }
+      console.log(saveName+'.json生成成功');
+      if(resolve){
+        resolve()
+      }
+    })
+
+  },
+  readDir(path) {  // 递归遍历目录
     let dirList = fs.readdirSync(path);
 
     dirList = dirList.map((ele, index) => {
@@ -16,14 +56,14 @@ let page = {
       let pathInfo = fs.statSync(thisPath)  //路径信息
       let isDir = pathInfo.isDirectory();
 
-      let isIgnore = /^\..*$/igm.test(ele);
+      let isIgnore = ignoreRule(ele);
       if (isIgnore) { //如果是要忽略的文件，则返回false
         return false;
       } else {
         dirList[index] = {
           name: ele,
           isDir: isDir,
-          remark: markRule[ele] ? markRule[ele] : ''
+          remark: markRule.ruler[ele] ? markRule.ruler[ele] : ''
         }
         if (isDir) {
           dirList[index].children = page.readDir(thisPath)
@@ -44,15 +84,30 @@ let page = {
 }
 
 
-let rootPath = 'F:/svn_project/project-goodOrder/wx_app/foodOrder'
+let list=page.getRuleList(); //获取规则列表
+let savePromise=[]
 
-let dirList = page.readDir(rootPath)
-
-fs.writeFile(savePath + '/dirList.json', JSON.stringify(dirList, null, 2), function (err) {
-  if (err) {
-    return console.error(err);
+list.forEach((ele)=>{// 根据列表加载规则 ，生成目录结构，保存成json文件
+  let thisPath = rulePath + '/' + ele;
+  markRule=require(thisPath); //加载规则
+  let dirList = page.readDir(markRule.path)
+  let data={
+    title:markRule.title,
+    list:dirList
   }
-  console.log('dirList.json生成成功');
+  let saveName=ele.replace(/\..*/igm,'');
+
+  savePromise.push(new Promise((resolve,reject)=> {
+    page.saveDirList(saveName,JSON.stringify(data, null, 2),resolve,reject)
+  }))
+
 })
+Promise.all(savePromise).then(function (results) {
+  console.log('文件已经全部生成',results); // 获得一个Array: ['P1', 'P2']
+  page.calculateList();  // 计算所有生成的json文件
+});
+
+
+
 
 console.log('finish')

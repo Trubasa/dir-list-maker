@@ -13,32 +13,38 @@ npm install
 
 ## 生成目录结构文件
 
-修改项目下tools/dirListMaker/readDir.js文件的指定路径rootPath，改为你实际需要生成树状结构的项目绝对地址
+在tools/markRule目录下的添加配置文件，请使用英文命名，不要添加特使符号的js文件
 ```javascript
-let rootPath = 'F:/svn_project/project-goodOrder/wx_app/foodOrder'
+const title = "在线商城项目"   // 项目名
+const path = 'F:/svn_project/distribution-web'   // 该项目所在绝对地址
+const ruler = {   // 备注规则
+  "patch.css":"覆盖样式，有时候在项目源码里写上的样式在打包后会失效，则可在这里协商",
+  qrCode:"生成二维码使用的插件",
+  testJson:"测试时用到的一些数据静态数据",
+  api:'网络请求全局处理方法',
+  assets:"放一些通用的工具、样式、文件",
+  "bus.js":"vue项目里，用于垮组件层级进行数据传递",
+  "common.js":"可复用的一些方法",
+  "myComponents.js":"用于注册自己编写的vue组件与页面",
+  build:'开发、打包配置',
+  config:'开发、打包配置',
+  //......
+ }
 ```
-修改项目下tools/dirListMaker/markRule.js文件，配置备注设置
-```javascript
-const ruler = {
-  menu: '菜单页面',
-  utils: '工具集，一些公用的方法都放在这里',
-  templates: "模板,功能与组件类似，但偏重于显示，不包含太多处理逻辑",
-  components: "组件"
-  //...
-}
-```
-在终端运行命令生成dirList.json到static目录下
+如果有需要，可配置tools/dirListMaker/ignoreRule.js文件，过滤掉不需要显示的文件或者目录，默认过滤掉隐藏文件和node_module文件夹
+
+在终端运行命令生成文件目录结构的.json文件到到static/dirList目录下,文件名与markRule里的文件名一致
 ``` bash
 npm run dir
 ```
-在dirList.json已经包含文件目录信息
+
 
 ## 查看目录结构
 
 ``` bash
 npm run dev
 ```
-会将生成的dirList.json进行友好地展示
+会将生成的目录结构的.json文件进行友好地展示
 
 ## 部署生成的目录结构
 ``` bash
