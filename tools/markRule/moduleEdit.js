@@ -2,7 +2,7 @@
  * Created by Trubasa 1141521502@qq.com on 2018/9/26.
  */
 // const path='F:/svn_project/project-goodOrder/wx_app/foodOrder'
-const title = "中山微店(distribution-web)"
+const title = "moduleEdit"
 const path = 'F:/svn_project/distribution-web'
 const ruler = {
   "patch.css":"覆盖样式，有时候在项目源码里写上的样式在打包后会失效，则可在这里协商",

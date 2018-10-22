@@ -2,7 +2,7 @@
  * Created by Trubasa 1141521502@qq.com on 2018/9/26.
  */
 const path='F:/svn_project/project-goodOrder/wx_app/foodOrder'
-const title = "点餐系统小程序"
+const title = "点餐系统小程序(foodOrder)"
 const ruler = {
   menu: '菜单页面',
   utils: '工具集，一些公用的方法都放在这里',
