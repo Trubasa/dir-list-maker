@@ -1,0 +1,880 @@
+{
+  "title": "trubasaAdmin",
+  "list": [
+    {
+      "name": "build",
+      "isDir": true,
+      "remark": "开发、打包配置",
+      "children": [
+        {
+          "name": "build.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "check-versions.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "logo.png",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "utils.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "vue-loader.conf.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "webpack.base.conf.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "webpack.dev.conf.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "webpack.prod.conf.js",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "config",
+      "isDir": true,
+      "remark": "开发、打包配置",
+      "children": [
+        {
+          "name": "dev.env.js",
+          "isDir": false,
+          "remark": ""
+        },
+        {
+          "name": "index.js",
+          "isDir": false,
+          "remark": "可配置开发模式的代理服务，实现前后端分离开发。配置打包后的文件名等。"
+        },
+        {
+          "name": "prod.env.js",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "dist",
+      "isDir": true,
+      "remark": "",
+      "children": [
+        {
+          "name": "static",
+          "isDir": true,
+          "remark": "静态资源目录",
+          "children": [
+            {
+              "name": "css",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "app.8ec62f3120ae09b510363bd8c67e5842.css",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "app.8ec62f3120ae09b510363bd8c67e5842.css.map",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "images",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "loader.svg",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "login_bg.png",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "js",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "app.ecaac9d6306d218b9c38.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "0.e5583c4d7f5579902bae.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "1.4ea31157ecf2a886e20d.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "1.4ea31157ecf2a886e20d.js.map",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "2.ab1078150d2ccdfed116.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "2.ab1078150d2ccdfed116.js.map",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "0.e5583c4d7f5579902bae.js.map",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "app.ecaac9d6306d218b9c38.js.map",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "manifest.0d2973e7e114c92b701b.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "manifest.0d2973e7e114c92b701b.js.map",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "vendor.f1167479960cfc859782.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "vendor.f1167479960cfc859782.js.map",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "mdui-v0.4.1",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "css",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "mdui.css",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "mdui.min.css",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "mdui.min.css.map",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "fonts",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "roboto",
+                      "isDir": true,
+                      "remark": "",
+                      "children": [
+                        {
+                          "name": "Roboto-LightItalic.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "LICENSE.txt",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Black.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-BlackItalic.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-BlackItalic.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Bold.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Bold.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-BoldItalic.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-BoldItalic.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Light.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Light.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-LightItalic.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Black.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Medium.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Medium.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-MediumItalic.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-MediumItalic.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Regular.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Regular.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-RegularItalic.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-RegularItalic.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Thin.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-Thin.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-ThinItalic.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "Roboto-ThinItalic.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "icons",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "material-icons",
+                      "isDir": true,
+                      "remark": "",
+                      "children": [
+                        {
+                          "name": "LICENSE.txt",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "MaterialIcons-Regular.ijmap",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "MaterialIcons-Regular.woff",
+                          "isDir": false,
+                          "remark": ""
+                        },
+                        {
+                          "name": "MaterialIcons-Regular.woff2",
+                          "isDir": false,
+                          "remark": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "js",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "mdui.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "mdui.min.js",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "mdui.min.js.map",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "config.js",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "index.html",
+          "isDir": false,
+          "remark": "单页应用主页面，部分依赖在此直接引入。"
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "isDir": true,
+      "remark": "源码",
+      "children": [
+        {
+          "name": "assets",
+          "isDir": true,
+          "remark": "放一些通用的工具、样式、文件",
+          "children": [
+            {
+              "name": "api.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "common.js",
+              "isDir": false,
+              "remark": "可复用的一些方法"
+            },
+            {
+              "name": "cover.css",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "logo.png",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "myComponents.js",
+              "isDir": false,
+              "remark": "用于注册自己编写的vue组件与页面"
+            },
+            {
+              "name": "netWork.js",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "transitionAnimate.css",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "tru_style.css",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "common",
+          "isDir": true,
+          "remark": "通用、可复用的文件",
+          "children": [
+            {
+              "name": "example.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "leftMenu.vue",
+              "isDir": false,
+              "remark": "左侧菜单栏，可折叠（迷你模式）"
+            },
+            {
+              "name": "messageBox.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "notFound.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "truImage.vue",
+              "isDir": false,
+              "remark": "图片自动裁剪长边，保持图片不变形，宽高跟随该组件外层标签"
+            },
+            {
+              "name": "truLoadingBtn.vue",
+              "isDir": false,
+              "remark": "（废弃）"
+            },
+            {
+              "name": "truLoadMore.vue",
+              "isDir": false,
+              "remark": "（废弃）"
+            },
+            {
+              "name": "truPopupPanel.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "windowReszie.vue",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "components",
+          "isDir": true,
+          "remark": "组件",
+          "children": [
+            {
+              "name": "HelloWorld.vue",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "pages",
+          "isDir": true,
+          "remark": "页面",
+          "children": [
+            {
+              "name": "login.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "module.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "test.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "truContent.vue",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "welcome.vue",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "router",
+          "isDir": true,
+          "remark": "vue-router的配置，管理spa的路由，可查看该文件确定所有页面的跳转路径与对应文件",
+          "children": [
+            {
+              "name": "index.js",
+              "isDir": false,
+              "remark": "可配置开发模式的代理服务，实现前后端分离开发。配置打包后的文件名等。"
+            }
+          ]
+        },
+        {
+          "name": "store",
+          "isDir": true,
+          "remark": "Vuex的配置，管理全局变量",
+          "children": [
+            {
+              "name": "bus.js",
+              "isDir": false,
+              "remark": "vue项目里，用于垮组件层级进行数据传递"
+            },
+            {
+              "name": "store.js",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "App.vue",
+          "isDir": false,
+          "remark": "页面主文件，所有编写的页面代码最终通过该文件挂载到index.hml上"
+        },
+        {
+          "name": "main.js",
+          "isDir": false,
+          "remark": "spa应用的主文件，在该文件里引入各种依赖"
+        }
+      ]
+    },
+    {
+      "name": "static",
+      "isDir": true,
+      "remark": "静态资源目录",
+      "children": [
+        {
+          "name": "images",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "loader.svg",
+              "isDir": false,
+              "remark": ""
+            },
+            {
+              "name": "login_bg.png",
+              "isDir": false,
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "name": "mdui-v0.4.1",
+          "isDir": true,
+          "remark": "",
+          "children": [
+            {
+              "name": "css",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "mdui.css",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "mdui.min.css",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "mdui.min.css.map",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            },
+            {
+              "name": "fonts",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "roboto",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "Roboto-LightItalic.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "LICENSE.txt",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Black.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-BlackItalic.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-BlackItalic.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Bold.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Bold.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-BoldItalic.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-BoldItalic.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Light.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Light.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-LightItalic.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Black.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Medium.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Medium.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-MediumItalic.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-MediumItalic.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Regular.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Regular.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-RegularItalic.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-RegularItalic.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Thin.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-Thin.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-ThinItalic.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "Roboto-ThinItalic.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "icons",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "material-icons",
+                  "isDir": true,
+                  "remark": "",
+                  "children": [
+                    {
+                      "name": "LICENSE.txt",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "MaterialIcons-Regular.ijmap",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "MaterialIcons-Regular.woff",
+                      "isDir": false,
+                      "remark": ""
+                    },
+                    {
+                      "name": "MaterialIcons-Regular.woff2",
+                      "isDir": false,
+                      "remark": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "js",
+              "isDir": true,
+              "remark": "",
+              "children": [
+                {
+                  "name": "mdui.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "mdui.min.js",
+                  "isDir": false,
+                  "remark": ""
+                },
+                {
+                  "name": "mdui.min.js.map",
+                  "isDir": false,
+                  "remark": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "config.js",
+          "isDir": false,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "name": "index.html",
+      "isDir": false,
+      "remark": "单页应用主页面，部分依赖在此直接引入。"
+    },
+    {
+      "name": "package.json",
+      "isDir": false,
+      "remark": ""
+    },
+    {
+      "name": "README.md",
+      "isDir": false,
+      "remark": ""
+    }
+  ]
+}
