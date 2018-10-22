@@ -1,14 +1,22 @@
 [
   {
-    "name": "点餐系统小程序",
+    "name": "点餐系统小程序(foodOrder)",
     "fileName": "goodOrder.json"
   },
   {
-    "name": "配灯web版",
+    "name": "配灯web版(light-store)",
     "fileName": "lightStore.json"
   },
   {
-    "name": "中山微店",
+    "name": "moduleEdit",
+    "fileName": "moduleEdit.json"
+  },
+  {
+    "name": "trubasaAdmin",
+    "fileName": "trubasaAdmin.json"
+  },
+  {
+    "name": "中山微店(distribution-web)",
     "fileName": "xidun.json"
   }
 ]
